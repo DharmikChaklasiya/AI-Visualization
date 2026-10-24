@@ -8,6 +8,9 @@ Folder Structure:
 * Phase_1_Using_AI
 * Phase_2_No_AI
 * Phase_2_Using_AI
+* data
+  includes datasets
+  predictions from FinBert model for twitter dataset
 
 
 
