@@ -1,5 +1,5 @@
 {
-    "team_name": "Team Name",
+    "team_name": "AI and VIS - Finance Project",
     "students": [
         {
             "student_id": "k00000000",
@@ -8,6 +8,26 @@
             "email": "first.last@mail.com",
             "github_user": "mygitusername"
         },
-        // ...add a record for each student
+        {
+            "student_id": "k00000000",
+            "first_name": "First",
+            "last_name": "Last",
+            "email": "first.last@mail.com",
+            "github_user": "mygitusername"
+        },
+        {
+            "student_id": "k00000000",
+            "first_name": "First",
+            "last_name": "Last",
+            "email": "first.last@mail.com",
+            "github_user": "mygitusername"
+        },
+        {
+            "student_id": "k12007370",
+            "first_name": "Henry-Willy",
+            "last_name": "Lechner",
+            "email": "henrylechner0@gmail.com",
+            "github_user": "yrneh-l"
+        }
     ]
 }
