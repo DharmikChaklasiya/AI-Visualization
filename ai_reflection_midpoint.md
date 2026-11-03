@@ -4,7 +4,7 @@
 | First name | Last name | Student ID |
 |---|---|---|
 | Dharmik | Chaklasiya | K51849432 |
-| Sarang | <last name> | <K-number> |
+| Saranajjan | Senthilkumar | k12442723 |
 
 **Group:** AI and VIS - Finance Project · **Model:** FinBERT · **Data:** Twitter Financial News (train split)
 Detailed record: [`ai-interactions/phase1_ai_pair_log.md`](ai-interactions/phase1_ai_pair_log.md)
