@@ -10,14 +10,14 @@
 Detailed record: [`ai-interactions/phase1_ai_pair_log.md`](ai-interactions/phase1_ai_pair_log.md)
 
 ## 1. How we used GenAI
-2026-11-03 — Saranajjan Senthilkumar
+2026-11-07 — Saranajjan Senthilkumar:
 
-I used ChatGPT to help develop a Colab inference pipeline for FinBERT, including dataset loading, mapping reference labels to sentiment names, extracting all three softmax scores, and comparing predictions with reference labels. AI also helped generate a confusion matrix and a per-tweet prediction-score chart. I ran the pipeline on an initial validation sample and inspected the outputs to check that prediction, label comparison, and visualization worked before extending the analysis.
+ChatGPT suggested verdicts and notes for 120 neutral-labelled disagreements. I reviewed and accepted all suggestions without changes, then uploaded the CSV. This was AI-assisted annotation with human verification, not independent annotation.
 
 ## 2. How AI influenced our analysis
 2026-11-03 — Saranajjan Senthilkumar
 
-AI helped turn the initial test into questions for further investigation. The sample contained negative-to-neutral, positive-to-neutral, and neutral-to-positive disagreements. These suggested examining the direction of errors and their prediction scores rather than relying only on accuracy. For our pair’s neutral-tweet investigation, manual review will help distinguish model errors from ambiguous examples and questionable reference labels.
+I reviewed B2 and B3 with ChatGPT’s assistance. The review produced suggestions to mark the 0.9 threshold in B2, describe word associations without implying causation in B3, and investigate whether “misses” co-occurs with “beats.” These remain suggestions; no plot changes have been implemented.
 
 ## 3. Failure patterns
 2026-11-03 — Saranajjan Senthilkumar
