@@ -10,9 +10,9 @@ Main question: **why does FinBERT give a sentiment to tweets that humans labelle
 | Part | Question |
 |---|---|
 | A | Where do errors come from (counts and % per class)? Is FinBERT overconfident? |
-| B | Where do Neutral tweets sit in FinBERT's probability triangle? Are the wrong calls confident? Which words and topics trigger them? Do tweets with several companies cause ambiguity? |
+| B | Where do Neutral tweets sit in FinBERT's probability triangle? Are the wrong calls confident? Which words and topics trigger them? Do tweets with several companies cause ambiguity? Earnings tweets with *beats* + *misses*? China-related tweets? |
 | C | Other systematic slices: signed price moves, mixed cues, questions |
-| D | Manual review: clear model mistake vs. ambiguous label |
+| D | Manual review: clear model mistake vs. ambiguous label, plus a blind check of the AI-assisted verdicts |
 
 ## Label mapping
 FinBERT outputs are renamed to the dataset's labels **by name**: `negative → Bearish`, `positive → Bullish`, `neutral → Neutral`
@@ -28,7 +28,8 @@ FinBERT outputs are renamed to the dataset's labels **by name**: `negative → B
 | `00_baseline_finbert.ipynb` | predictions + softmax scores, baseline views |
 | `01_neutral_error_analysis.ipynb` | Phase I analysis (parts A–D) |
 | `results_train.csv` | model outputs per tweet (created by 00) |
-| `manual_review_neutral.csv` | 120 wrong Neutral tweets for hand labelling (created by 01) |
+| `manual_review_neutral.csv` | 120 wrong Neutral tweets with verdicts (AI-suggested, accepted by Sarang; see AI log #9) |
+| `manual_review_blind_check.csv` | 30 of those tweets **without** AI verdicts, for an independent human check (notebook part D3) |
 | `figures/` | all figures |
 | `early_exploration_validation/` | first exploration on the validation split (superseded; kept for transparency and as a robustness check) |
 
